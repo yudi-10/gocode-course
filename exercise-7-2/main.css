@@ -1,0 +1,275 @@
+body {
+    background-color: rgb(184, 184, 184);
+
+
+}
+
+.titel {
+    color: rgb(0, 8, 255);
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+    padding: auto;
+    font-size: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.login {
+    float: left;
+}
+
+.carpentry,
+.swimming,
+.football {
+    margin: auto;
+    width: 30%;
+    padding: auto;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 15px 50px 30px;
+}
+
+.carpentry:hover,
+.swimming:hover,
+.football:hover {
+    background-color: rgb(68, 67, 67);
+
+}
+
+
+.imag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.title-circle,
+.p-circle,
+.price {
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.title-circle {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.title-circle {
+    font-size: 30px;
+}
+
+.p-circle {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 15px;
+}
+
+.form {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 15px 15px 15px;
+    block-size: auto;
+}
+
+.p-form {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    font-size: 30px;
+}
+
+.f-input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.b-form {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+
+    border: none;
+    font-size: 35px;
+    border-radius: 15px 50px 30px;
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 10px;
+
+    position: absolute;
+    /**top: 107%;
+    /* top: 670px; */
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.b-form:hover {
+    background-color: #ffa200;
+}
+
+.f-login {
+    text-align: center;
+    margin: auto;
+
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 15px 50px 30px;
+    block-size: auto;
+}
+
+.n-login,
+.p-login {
+    color: aliceblue;
+}
+
+.t-login {
+    color: #ff0000;
+}
+
+.b-login {
+    color: #ff0000;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+    border-radius: 15px 50px 30px;
+}
+
+.f-login:hover {
+    background-color: #333;
+}
+
+.signup-form {
+    text-align: center;
+    margin: auto;
+
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.679);
+    margin-top: 30px;
+    border-radius: 15px 50px 30px;
+    block-size: auto;
+}
+
+.signup-form:hover {
+    background-color: #333;
+}
+
+.p-sign {
+    color: rgb(255, 255, 255);
+}
+
+.b-signup {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ff0000;
+    border: none;
+    border-radius: 15px 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.b-signup:hover {
+    background-color: #ffa200;
+    color: #0400ff;
+}
+
+.signup-input {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.about-manu {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: auto;
+
+    margin-top: 30px;
+    border-radius: 15px 50px 30px;
+}
+
+.box {
+    background-color: rgba(240, 248, 255, 0.332);
+}
+
+.about-imag {
+    width: 200px;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+
+}
+
+footer {
+    background-color: #111;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+
+    margin-top: auto;
+    width: 100%;
+    /*position: fixed;*/
+
+}
